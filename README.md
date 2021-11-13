@@ -209,6 +209,6 @@ note:
 
 - Zadaný v classrooms
 - Ukážeme si co je třeba
-- https://classroom.github.com/a/MPjRuH0W
+- https://classroom.github.com/a/E2HPFdEn
 
 ![Super appka](https://raw.githubusercontent.com/TvorimWeb-2018-Praha/projekt3-superappka/master/vysledek.png)
