@@ -1,0 +1,51 @@
+.kolecko {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #e74c3c;
+    animation: example 2s infinite alternate;
+}
+
+
+@keyframes example {
+    from {
+        background-color: red;
+        transform: scale(1);
+    }
+    to {
+        background-color: blue;
+        transform: scale(2);
+    }
+}
+
+
+Bonusove reseni:
+
+@keyframes example {
+    from {
+        background-color: red;
+        transform: scale(1);
+    }
+    to {
+        background-color: blue;
+        transform: translate(300px, 0) scale(2);
+
+    }
+}
+
+
+dalsi ukazka jak vyuzit mezi stav 
+
+@keyframes example {
+    from {
+        background-color: red;
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.3);
+    }
+    to {
+        background-color: blue;
+        transform: scale(2);
+    }
+}

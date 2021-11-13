@@ -1,0 +1,23 @@
+.tlacitko:hover {
+    transform: scale(1.5);
+    background-color: blue;
+    color: green;
+    transition: 1s ease 0s;
+    /* transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s; */
+    /*bonus*/
+    /* transform: rotate(20deg); */
+}
+
+
+.ctverecek:hover {
+    transform: rotate(360deg);
+    transition: 2s;
+}
+
+.kolecko:hover {
+    transform: translate(300px, 0);
+    transition: 2s ease-in;
+}

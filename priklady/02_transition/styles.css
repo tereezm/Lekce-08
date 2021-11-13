@@ -1,0 +1,83 @@
+/* nejsme vcerejsi, pouzivame moderni box model */
+
+*,
+ :after,
+ :before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 16px/1.5 sans-serif;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FEFEFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+/*----------------------------------------*/
+
+.zmen-barvu {
+    background-color: #303F9F;
+    transition: 1s;
+    /*
+    Rozepsane:
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    */
+    /* transition-property: background-color;
+    margin-top: 0; */
+}
+
+.zmen-barvu-po-2s {
+    background-color: #1976D2;
+    transition: background-color 1s ease-in 2s;
+}
+
+.zmen-barvu:hover,
+.zmen-barvu-po-2s:hover {
+    background-color: #9C27B0;
+}
+
+.zmensi-se {
+    background-color: #0288D1;
+    transition: all 1s linear 1s;
+}
+
+.zmensi-se:hover {
+    transform: scale(0.5);
+}
+
+.posun-se {
+    background-color: #303F9F;
+    transition: all 3s;
+}
+
+.posun-se:hover {
+    margin-top: 150px;
+    /* transform: rotate(-15deg); */
+}

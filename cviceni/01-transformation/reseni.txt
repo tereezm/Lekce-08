@@ -1,0 +1,14 @@
+/* Reseni moje, ale byla to jen zkouska takze hodnoty se klidne mohli lisit*/
+
+
+/* .posun {
+    transform: translate(100%, 0);
+}
+
+.rotace {
+    transform: rotate(30deg);
+}
+
+.zvetseni {
+    transform: scale(1.32);
+} */
