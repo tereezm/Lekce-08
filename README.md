@@ -1,8 +1,8 @@
 # Tvořím web A–Z: lekce 8
 
-Jaro 2021, Praha
+Podzim 2021, Liberec
 
-<small>4. května 2021</small>
+<small>15. listopadu 2021</small>
 
 ---
 
