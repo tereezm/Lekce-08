@@ -35,8 +35,14 @@ h2 {
 
 /* Ukol posunout, otocit a zvetsit */
 
-.posun {}
+.posun {
+    transform: translatex(50%);
+}
 
-.rotace {}
+.rotace {
+    transform: rotate(10deg);
+}
 
-.zvetseni {}
+.zvetseni {
+    transform: scale(1.5);
+}

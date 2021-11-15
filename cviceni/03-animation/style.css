@@ -1,46 +1,51 @@
-/* nejsme vcerejsi, pouzivame moderni box model */
-
-*,
- :after,
- :before {
-    box-sizing: border-box;
-}
-
-body {
-    padding: 50px;
-}
-
-.kolecko {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    background-color: #e74c3c;
-}
-
-
-/* Otevřít materiály příklady na Animace
+        /* nejsme vcerejsi, pouzivame moderni box model */
+        
+        *,
+         :after,
+         :before {
+            box-sizing: border-box;
+        }
+        
+        body {
+            padding: 50px;
+        }
+        
+        .kolecko {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            margin-top: 200px;
+            background-color: #e74c3c;
+            animation-name: moje-animace;
+            animation-iteration-count: infinite;
+            animation-duration: 2s;
+            animation-direction: alternate;
+        }
+        
+        @keyframes moje-animace {
+            from {
+                background-color: red;
+            }
+            to {
+                background-color: blue;
+                transform: scale(2) translateX(600px);
+            }
+        }
+        /* Otevřít materiály příklady na Animace
 Dej kolečku animaci ať se donekonečna přepíná background-color z červené na modrou
 Přidejte ať se kolečko zvětší 2x
 Přidejte ať se animace děje tam a zpět (alternate)
 
 Bonus:
 Přidejte posun vlevo o 300px */
-
-
-/*#-------------- Zde pis svuj kod -------------#*/
-
-
-/* 
+        /*#-------------- Zde pis svuj kod -------------#*/
+        /* 
 @keyframes example {
 	from { background-color: red; }
 	to { background-color: blue; }
 } */
-
-
-/*#--------------------------------------------#*/
-
-
-/*
+        /*#--------------------------------------------#*/
+        /*
 animation-name: example;
 animation-duration: 4s;
 animation-delay: -2s;

@@ -62,10 +62,10 @@ div {
 
 .translate {
     background-color: #303F9F;
-    transform: translate(0, 50%);
+    transform: translate(50%, 50%);
 }
 
 .zmena-velikosti {
     background-color: #00796B;
-    transform: scale(1.3);
+    transform: scale(1.9);
 }

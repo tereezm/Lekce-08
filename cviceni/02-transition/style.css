@@ -48,8 +48,28 @@ Kolečko se posune doleva po najetí myši například o 300px a použijte ease-
 Bonus přidej tlačítku pootočení o 20 stupňů 
 */
 
-.tlacitko {}
+.tlacitko {
+    transition: all;
+}
 
-.ctverecek {}
+.tlacitko:hover {
+    transform: scale(1.5) skew(20deg);
+    color: black;
+    background-color: blue;
+}
 
-.kolecko {}
+.ctverecek {
+    transition: all 2s;
+}
+
+.ctverecek:hover {
+    transform: skew(360deg);
+}
+
+.kolecko {
+    transition: 2s ease-in;
+}
+
+.kolecko:hover {
+    transform: translateX(300px);
+}
